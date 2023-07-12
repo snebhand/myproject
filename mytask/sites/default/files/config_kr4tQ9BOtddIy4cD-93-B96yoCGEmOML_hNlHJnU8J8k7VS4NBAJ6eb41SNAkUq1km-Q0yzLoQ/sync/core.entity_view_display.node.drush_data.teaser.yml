@@ -1,0 +1,30 @@
+uuid: a89214d8-2738-4843-90db-3fd55e987f27
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.drush_data.field_albumid
+    - field.field.node.drush_data.field_id
+    - field.field.node.drush_data.field_thumbnailurl
+    - field.field.node.drush_data.field_title
+    - field.field.node.drush_data.field_url
+    - node.type.drush_data
+  module:
+    - user
+id: node.drush_data.teaser
+targetEntityType: node
+bundle: drush_data
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_albumid: true
+  field_id: true
+  field_thumbnailurl: true
+  field_title: true
+  field_url: true

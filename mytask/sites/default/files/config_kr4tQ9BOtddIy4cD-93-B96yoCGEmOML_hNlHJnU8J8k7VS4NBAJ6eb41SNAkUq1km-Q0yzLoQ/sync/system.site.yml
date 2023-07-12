@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: en
+uuid: 21eba1d4-3307-40e1-8bad-e94c2e6e6e22
+name: mytask
+mail: snehalbhandare904@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

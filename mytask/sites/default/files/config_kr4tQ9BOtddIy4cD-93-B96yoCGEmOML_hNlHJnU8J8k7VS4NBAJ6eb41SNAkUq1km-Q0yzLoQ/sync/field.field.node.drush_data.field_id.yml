@@ -1,0 +1,23 @@
+uuid: 8df03670-792d-443a-8b2c-a44ef0a2b27a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_id
+    - node.type.drush_data
+id: node.drush_data.field_id
+field_name: field_id
+entity_type: node
+bundle: drush_data
+label: id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

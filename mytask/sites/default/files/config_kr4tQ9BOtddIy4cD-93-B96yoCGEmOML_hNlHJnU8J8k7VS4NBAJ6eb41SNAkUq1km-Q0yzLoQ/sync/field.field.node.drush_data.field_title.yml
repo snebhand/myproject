@@ -1,0 +1,21 @@
+uuid: aac91357-1b51-4e55-8f4d-558da533be62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.drush_data
+  module:
+    - text
+id: node.drush_data.field_title
+field_name: field_title
+entity_type: node
+bundle: drush_data
+label: title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,23 @@
+uuid: 5a3e1046-2a01-490a-bf8e-27a74a85c992
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_albumid
+    - node.type.drush_data
+id: node.drush_data.field_albumid
+field_name: field_albumid
+entity_type: node
+bundle: drush_data
+label: albumId
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

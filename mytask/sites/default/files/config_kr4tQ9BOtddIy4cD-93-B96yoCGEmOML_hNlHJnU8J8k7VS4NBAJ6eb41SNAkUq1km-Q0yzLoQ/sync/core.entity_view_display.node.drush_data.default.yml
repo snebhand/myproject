@@ -1,0 +1,75 @@
+uuid: ce896b3e-54f6-40bc-9c86-4a439cbb4c81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.drush_data.field_albumid
+    - field.field.node.drush_data.field_id
+    - field.field.node.drush_data.field_thumbnailurl
+    - field.field.node.drush_data.field_title
+    - field.field.node.drush_data.field_url
+    - node.type.drush_data
+  module:
+    - link
+    - text
+    - user
+id: node.drush_data.default
+targetEntityType: node
+bundle: drush_data
+mode: default
+content:
+  field_albumid:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_id:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_thumbnailurl:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

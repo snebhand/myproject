@@ -1,0 +1,14 @@
+uuid: 014356ac-e0f8-4cf4-9313-483b35213e9a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - snehalbhandare904@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
